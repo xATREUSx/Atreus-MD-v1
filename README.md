@@ -1,22 +1,22 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 <p align="center">
-    <a href="https://ibb.co/N6NMDtn"><img src="https://i.ibb.co/cc8jfkX/01.jpg" alt="01" border="0" /></a>
+    <a href="https://ibb.co/fpQ5vWw"><img src="https://i.ibb.co/gT6pV8K/atreus-final.jpg" alt="atreus-final" border="0"></a>
 </p>
 
 ## PENTING
 
 > **Warning**: Don't Trade This Script
 
-<h1 align="center">Ikratos-MD-v1</h1>
+<h1 align="center">Atreus-MD-v1</h1>
 <p align="center">
-  <a href="https://github.com/xIKRATOSx"><img src="http://readme-typing-svg.herokuapp.com?color=FFFFFF&center=true&vCenter=true&multiline=false&lines=Ikratks+BOT+Multi+Device;Base+ori+by+ImYanXiao;Recode+By+Ikratos;Give+star+and+forks+this+Repo+:D;Follow+My+Github" alt="ʘᴗʘ">
+  <a href="https://github.com/xATREUSx"><img src="http://readme-typing-svg.herokuapp.com?color=FFFFFF&center=true&vCenter=true&multiline=false&lines=Ikratks+BOT+Multi+Device;Base+ori+by+ImYanXiao+and+xIKRATOSx;Recode+By+Ikratos;Give+star+and+forks+this+Repo+:D;Follow+My+Github" alt="ʘᴗʘ">
 </p>
 
 <p align="center">
- <a href="#"><img title="IkratosBOT" src="https://img.shields.io/badge/Whatshapp BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+ <a href="#"><img title="AtreusBOT" src="https://img.shields.io/badge/Whatshapp BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="https://github.com/xIKRATOSx"><img title="Author" src="https://img.shields.io/badge/AUTHOR-xIKRATOSx-green.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/xATREUSx"><img title="Author" src="https://img.shields.io/badge/AUTHOR-xATREUSx-green.svg?style=for-the-badge&logo=github"></a>
 
 ---------
 
@@ -27,35 +27,13 @@
   <a href="mailto:bmclips001@gmail.com">
     <img align="left" alt="SIEGRIN | Gmail" width="26px" src="https://github.com/siegrin/siegrin/blob/main/Assets/Gmail.svg" />
   </a> &nbsp;&nbsp;
+  
+  
 ---------
+<details>
+<summary>Steps To Deploy On RAILWAY```</summary>
 
-[![BOT WHATSAPP](https://img.shields.io/badge/WhatsApp%20BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/923470027813) 
 ---------
-
-### a little about this bot
-- ✔️ | **Simple** 
-- ✔️ | **Button Template** 
-- ✔️ | **Multi Device** 
-- ✔️ | **Button Document(Experiment)** 
----------
-### Some of the features include
-- ✔️ | Menfess
-- ✔️ | AntiCall
-- ✔️ | Game & Rpg Game
-- ✔️ | Nsfw 
-- ✔️ | Sticker 
-- ✔️ | Kerang Ajaib 
-- ✔️ | Quotes
-- ✔️ | Anime 
-- ✔️ | Premium 
-- ✔️ | Tools 
----------
-
-## ``Group Panelku Hosting``
-[![WHATSAPP](https://img.shields.io/badge/Groups%20Panel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/DxIb5oWzpg24mmg9D9zw5Y) 
----------
-
-## ```USER RAILWAY```
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app)
 
@@ -77,11 +55,14 @@ If error try using yarn instead of npm, see [here](https://github.com/BochilGami
 $ node .
 ```
 
+
 #### For android 10 and above don't use npm, use yarn install
 ```bash
 $ pkg install yarn -y
 $ yarn install
 ```
+</details>
+
 ---------
 
 ## TERMUX WITH UBUNTU
