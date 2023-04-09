@@ -3,14 +3,16 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
    {
 	title: `${dmenub} List Options`,
 	rows: [
-	    {title: "✨ | Welcome", rowId: `${usedPrefix + command} welcome`},
-	    {title: "🚫 | Delete", rowId: `${usedPrefix + command} delete`},
-	    {title: "👁 | Antiviewonce", rowId: `${usedPrefix + command} antiviewonce`}, 
-	    {title: "🌎 | Public", rowId: `${usedPrefix + command} public`},
-	{title: "🗣️ | Simi", rowId: `${usedPrefix + command} simi`},
+	{title: "✨ | Welcome", rowId: `${usedPrefix + command} welcome`},
+  {title: "🗣️ | ChatGPT", rowId: `${usedPrefix + command} chatgpt`},
+	{title: "🚫 | Delete", rowId: `${usedPrefix + command} delete`},
+	{title: "👁 | Antiviewonce", rowId: `${usedPrefix + command} antiviewonce`}, 
+	{title: "🌎 | Public", rowId: `${usedPrefix + command} public`},
+	{title: "🗣️ | Auto-chat", rowId: `${usedPrefix + command} autochat`},
 	{title: "🔞 | Nsfw", rowId: `${usedPrefix + command} nsfw`},
 	{title: "🌟 | PremNsfwChat", rowId: `${usedPrefix + command} premnsfwchat`},
 	{title: "🔗 | Antilink", rowId: `${usedPrefix + command} antilink`},
+	{title: "☎ | AntiCall", rowId: `${usedPrefix + command} anticall`},
 	{title: "🚫 | Antidelete", rowId: `${usedPrefix + command} antidelete`},
 	{title: "📛 | Antitoxic", rowId: `${usedPrefix + command} antitoxic`}, 
 	{title: "📩 | Antispam", rowId: `$usedPrefix + command} antiSpam`}, 
@@ -32,8 +34,8 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
 ]
 
 const listMessage = {
-  text: ' ',
-  footer: botdate,
+  text: 'Here\'s The List Of Functions\nSelect The Function To Turn It On/Off\n\n ',
+  footer: `ɪᴋʀᴀᴛᴏs-ᴍᴅ-ᴠ1 • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ\nowner: +92 347 0027813`,
   title: `*${htki} 𝙾𝙿𝚃𝙸𝙾𝙽𝚂 ${htka}*`,
   buttonText: "Click Here!",
   sections
@@ -57,6 +59,13 @@ const listMessage = {
         throw false
       }
       chat.welcome = isEnable
+      break
+    case 'chatgpt':
+        if (!isROwner) {
+          global.dfail('rowner', m, conn)
+          throw false
+        }
+      chat.chatgpt = isEnable
       break
      case 'detect':
        if (!m.isGroup) {
@@ -153,12 +162,12 @@ const listMessage = {
         }
       chat.updateAnime = isEnable
       break
-      case 'simi':
+      case 'autochat':
         if (!isROwner) {
           global.dfail('rowner', m, conn)
           throw false
         }
-      chat.simi = isEnable
+      chat.autochat = isEnable
       break
       case 'antispam':
        if (m.isGroup) {
@@ -170,11 +179,10 @@ const listMessage = {
        chat.antiSpam = isEnable
        break
        case 'anticall':
-       if (m.isGroup) {
-         if (!(isAdmin || isOwner)) {
-           global.dfail('admin', m, conn)
+       isAll = true
+         if (!isOwner) {
+           global.dfail('rowner', m, conn)
            throw false
-         }
        }
        chat.antiCall = isEnable
        break
