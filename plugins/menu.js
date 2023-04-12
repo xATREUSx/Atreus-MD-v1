@@ -431,7 +431,7 @@ const listMessage = {
                 {
                     urlButton: {
                         displayText: `${namebot}`,
-                        url: 'https://github.com/ImYanXiao/Elaina-MultiDevice'
+                        url: 'https://github.com/ImYanXiao/atreus-MultiDevice'
                     }
                 },
                 {
@@ -555,27 +555,27 @@ function ucapan() {
 function timeimg() {
     let imgloc = ''
   const time = moment.tz('Asia/Karachi').format('HH')
-  imgloc = ('./media/elaina8.png')
+  imgloc = ('./media/atreus8.png')
   if (time >= 0) {
-    imgloc = ('./media/elaina.png')
+    imgloc = ('./media/atreus.png')
   }
   if (time >= 4) {
-    imgloc = ('./media/elaina2.png')
+    imgloc = ('./media/atreus2.png')
   }
   if (time >= 8) {
-    imgloc = ('./media/elaina3.png')
+    imgloc = ('./media/atreus3.png')
   }
   if (time >= 12) {
-    imgloc = ('./media/elaina4.png')
+    imgloc = ('./media/atreus4.png')
   }
   if (time >= 16) {
-    imgloc = ('./media/elaina5.png')
+    imgloc = ('./media/atreus5.png')
   }
   if (time >= 20) {
-    imgloc = ('./media/elaina6.png')
+    imgloc = ('./media/atreus6.png')
   }
   if (time >= 24) {
-    imgloc = ('./media/elaina7.png')
+    imgloc = ('./media/atreus7.png')
   }
   return imgloc
 }
