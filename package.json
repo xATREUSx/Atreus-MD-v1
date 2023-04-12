@@ -1,7 +1,7 @@
 {
-    "name": "Ikratos-MD-v1",
+    "name": "Atreus-MD-v1",
     "version": "1.0.0",
-    "description": "Ikratos-MD-v1, Simple lightweight Multi-Device Bot.✨🌿",
+    "description": "Simple lightweight Multi-Device Bot.✨🌿",
     "main": "index.js",
     "type": "module",
     "directories": {
@@ -26,21 +26,21 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/xIKRATOSx/Ikratos-MD-v1",
+    "homepage": "https://github.com/xAtreusx/Atreus-MD-v1",
     "author": {
-        "name": "xIKRATOSx"
+        "name": "xAtreusx"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/xIKRATOSx/Ikratos-MD-v1.git"
+        "url": "git+https://github.com/xAtreusx/Atreus-MD-v1.git"
     },
     "bugs": {
-        "url": "https://github.com/xIKRATOSx/Ikratos-MD-v1/issues"
+        "url": "https://github.com/xAtreusx/Atreus-MD-v1/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
-        "@adiwajshing/baileys": "npm:baileys@^6.0.8",
-        "@bochilteam/scraper": "^4.0.22-alpha.0",
+        "@adiwajshing/baileys": "github:BrunoSobrino/baileys",
+        "@bochilteam/scraper": "^3.0.0",
         "@vitalets/google-translate-api": "^8.0.0", 
         "acrcloud": "^1.4.0", 
         "awesome-phonenumber": "^2.68.0",
