@@ -58,6 +58,9 @@ global.nomorown = '923470027813' //Nomor Owner
 global.namebot = 'Ikratos-MD-v1' //Nama Bot
 global.nameown = 'ᴀʜᴍᴀᴅ ᴀʟɪ🇵🇰' // Nama Owner
 
+/*============== CHATGPT ==============*/
+global.openAiapi = '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'   // Get you Api-key from 'https://platform.openai.com/account/api-keys'
+global.org = 'org-Yv9zILeo1OB3XS4U6OgNbJ1R'   // Get you Org-Key from 'https://platform.openai.com/account/org-settings' 
 
 /*============== STAFF ==============*/
 global.owner = [
@@ -104,6 +107,8 @@ global.botdate = `⫹⫺ Date: ${week} ${date}`
 global.bottime = `Time : ${wktuwib}`
 global.titlebot = '🎋 ┊ 「 ᴀᴛʀᴇᴜs-ᴍᴅ-ᴠ𝟷」 ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ'
 global.author = global.wm
+global.footerTXT = `ᴀᴛʀᴇᴜs-ᴍᴅ-ᴠ𝟷 • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ\nowner: +92 314 2913200`
+global.fig = `Follow me on instagram:\n\t\tinstagram.com/itx_ahmad.ali`
 global.logo = 'https://i.ibb.co/cc8jfkX/01.jpg'
 
 
